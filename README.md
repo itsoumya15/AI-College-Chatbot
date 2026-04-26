@@ -2,7 +2,7 @@
 
 An interactive AI chatbot that answers college-related queries using a dataset and semantic search.
 This project demonstrates how AI, data, and web development can be combined to build a simple and effective assistant.
-
+Live demo:https://ai-college-chatbot-eta.vercel.app/
 ---
 
 ## About the Project
