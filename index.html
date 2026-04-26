@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI College Chatbot</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        .chat-box {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            height: 500px;
+            overflow-y: auto;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .msg {
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            max-width: 80%;
+        }
+
+        .user {
+            background: #d1e7ff;
+            margin-left: auto;
+        }
+
+        .bot {
+            background: #d4f7d4;
+        }
+
+        .input-box {
+            margin-top: 10px;
+        }
+
+        input {
+            width: 40%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>🎓 AI College Chatbot</h2>
+
+<div class="chat-box" id="chat"></div>
+
+<div class="input-box">
+    <input type="text" id="msg" placeholder="Ask something...">
+    <button onclick="sendMsg()">Send</button>
+</div>
+
+<!-- ✅ LINK JS FILE -->
+<script src="script.js"></script>
+
+</body>
+</html>
